@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "tool": "win-reboot-report",
+  "collectedAtUtc": "2026-01-10T12:00:00Z",
+  "platform": "Synthetic Windows fixture",
+  "evidence": {
+    "lastBootUtc": "2026-01-10T10:00:00Z",
+    "limitReached": false,
+    "events": [
+      {
+        "id": 41,
+        "provider": "Microsoft-Windows-Kernel-Power",
+        "timeUtc": "2026-01-10T10:00:05Z",
+        "message": "Example unclean shutdown record; no cause is established."
+      },
+      {
+        "id": 1074,
+        "provider": "User32",
+        "timeUtc": "2026-01-09T12:00:00Z",
+        "message": "Example requested restart."
+      }
+    ]
+  },
+  "issues": []
+}
